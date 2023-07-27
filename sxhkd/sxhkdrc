@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	termite
+	kitty
 
 # program launcher
 super + d
@@ -13,8 +13,15 @@ super + d
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
-#
+# launch firefox
+super + b
+	firefox
+# launch steam
+super + alt + g
+	steam
+# launch blueberry
+super + alt + b
+	blueberry
 # bspwm hotkeys
 #
 
